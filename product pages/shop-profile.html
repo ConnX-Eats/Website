@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Profile Page</title>
+    <link rel="stylesheet" href="css/shop-profile.css">
+    <!--==Fav-icon===============================-->
+    <link rel="shortcut icon" href="images/ConnX Eats Logo White Shade.png"/>
+    <!--==Using-Font-Awesome=====================-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <div class="profile-img">
+                <img src="./Shop Dummy Profile.png" width="200">
+            </div>
+            <div class="profile-nav-info">
+                <h3 class="user-name">*Shop Name*</h3>
+                <div class="address">
+                    <p class="state">Delhi,</p>
+                    <span class="country">India,</span>
+                </div>
+            </div>
+            <div class="profile-option">
+                <div class="notification">
+                    <i class="fa fa-bell"></i>
+                        <span class="alert-message">1</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-bd">
+            <div class="left-side">
+                <div class="profile-side">
+                    <p class="mobile-no"><i class="fa fa-phone"></i>+91 123*****90</p>
+                    <p class="user-mail"><i class="fa fa-envelope"></i>shop@connxeats.mail</p>
+                    <div class="user-bio">
+                        <h3>Bio</h3>
+                        <p class="bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, quas. Nisi consequatur quod rerum dicta.</p>
+                    </div>
+                    <div class="profile-btn">
+                        <button class="chatbtn">
+                            <i class="fa fa-comment"></i> Chat
+                        </button>
+                        <button class="createbtn">
+                            <i class="fa fa-plus"></i>Create
+                        </button>
+                    </div>
+                    <div class="user-rating">
+                        <h3 class="rating">5</h3>
+                        <div class="rate">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="no-user">
+                                <span>123</span>&nbsp; &nbsp;reviews
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="nav">
+                    <ul>
+                        <li onclick="tabs(0)" class="user-post active">Overview</li>
+                        <li onclick="tabs(1)" class="user-review">Products</li>
+                        <li onclick="tabs(2)" class="user-settings">Reviews</li>
+                    </ul>
+                </div>
+                <div class="profile-body">
+                    <div class="profile-posts tab">
+                        <h1>About this Place</h1>
+                        <p class="menu-header">Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+                        <img class = "menu" src="./aa.webp">
+                        <p class="menu-header">Cuisines</p>
+                        <a href=""><button class="cuisines-btn">Burger</button></a> <a href=""><button class="cuisines-btn">Beverages</button></a> <a href=""><button class="cuisines-btn">Pasta</button></a> <a href=""><button class="cuisines-btn">North Indian</button></a><a href=""><button class="cuisines-btn">Fast Food</button></a>
+                        <p class="menu-header">Average Cost</p>
+                        <p>₹int</p>
+                        <p class="small">Exclusive of applicable taxes and charges, if any</p>
+                        <p class="menu-headera">More Info </p>
+                        <p class="medium"><i class="far fa-check-circle pa"></i> Break Fast</p> <p class="medium"><i class="far fa-check-circle pa"></i> Delivery</p> <p class="medium"><i class="far fa-check-circle pa"></i> Desert & Bakes</p> <p class="medium"><i class="far fa-check-circle pa"></i> Seating Available</p>
+                    </div>
+                    <div class="profile-review tab">
+                        <h1>Products</h1>
+                        <img src="./French-fries-b9e3e0c.jpg" width="150px" <p class="medium up"> McSpicy™ Chicken Double Patty Burger</p>
+                    </div>
+                    <div class="profile-setting tab">
+                        <h1>User Reviews</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum id nisi odit aliquam dolorem amet? Suscipit maxime magnam eveniet laudantium quibusdam, distinctio voluptas placeat mollitia, labore natus, alias praesentium esse tempore aut illo atque pariatur reiciendis qui aliquam debitis impedit eaque ipsam perferendis accusantium? Dicta ea officiis adipisci soluta temporibus cum aspernatur itaque? At veniam eum blanditiis distinctio magni similique, aliquam minima asperiores assumenda iusto porro a, sapiente quaerat?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./jquery.js"></script>
+    <script src="./shop-profile.js"></script>
+</body>
+</html>

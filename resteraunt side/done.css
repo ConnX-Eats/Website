@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.Done{
+    padding-top: 100px;
+}
+.Done p{
+    font-size: 20px;
+}
+.Done gg{
+    font-size: 15px;
+    padding-top: 16px;
+}

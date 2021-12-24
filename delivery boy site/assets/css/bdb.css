@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.Done{
+    padding-top: 259px;
+}
+.Done p{
+    font-size: 20px;
+}
+.Done gg{
+    font-size: 15px;
+    padding-top: 16px;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: darkcyan;
+    color: white;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 16px;
+  }
